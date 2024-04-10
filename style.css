@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--tartiary);
+}
+.menu{
+    background-color:var(--cloud);
+}
+.offcanvas-end{
+    width: 65% !important;
+    
+}
+.mobileMenu{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.fa-bars{
+    font-size: 40px;
+    border: none;
+    outline: none;
+}
+.roll-img{
+    border-radius: 50%;
+}
+.fa-user{
+    color: var(--tartiary);
+}
+::placeholder {
+    color: white;
+}
+.sidebar{
+    border-inline: 1px solid #0dcaf0;
+}
+.propHero{
+    background-image: url('./images/lammm.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
